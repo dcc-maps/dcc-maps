@@ -1,0 +1,10 @@
+--Missatge bloc de notes que guardem com a .bat per fer una importació d'un arxiu shapefile. Abans creem l'esquema a postgis de 'topografia'--
+::
+:: mi primer bat
+::
+set ogr2ogr="C:\Program Files\QGIS 3.16\bin\ogr2ogr.exe"
+rem conexión a PostgreSQL
+set pg="host=localhost port=5432 dbname=CursPostgres schemas=topografia user=gisadmin password=xxxxx"
+%ogr2ogr% -f "PostgreSQL" PG:%pg% bt5mv20sh0f285131al1r060.shp -overwrite
+::
+pause
