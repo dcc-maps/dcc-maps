@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @dcc-maps
 - 👀 I’m interested in GIS, data bases and GIS data bases
-- 🌱 I’m currently learning PostgreSQL, MySQL and QGIS
+- 🌱 I’m currently learning PostgreSQL, pgAdmin, MySQL, phpMyAdmin, MariaDB, HeidiSQL and QGIS
 - 💞️ I’m looking to collaborate on environmental projects or sport tourism projects with GIS aplications.
 - 📫 How to reach me: danielcbcn@gmail.com
 
