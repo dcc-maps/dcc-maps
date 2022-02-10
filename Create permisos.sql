@@ -6,7 +6,7 @@ CREATE ROLE g_admin;
 -- Usuarios de edición de GIS
 CREATE ROLE gisadmin login PASSWORD 'your_password' IN ROLE g_admin;
 -- Usuarios de consulta
-CREATE ROLE gis      login PASSWORD 'otro_password' IN ROLE g_cons;
+CREATE ROLE usergis      login PASSWORD 'otro_password' IN ROLE g_cons;
 
 
 -- Asignamos permisos a los roles
